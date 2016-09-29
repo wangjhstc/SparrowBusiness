@@ -13,6 +13,9 @@
 		8AD4B6D31D9CB14E004C8704 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AD4B6C91D9CB14E004C8704 /* Main.storyboard */; };
 		8AD4B6D51D9CB14E004C8704 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD4B6CC1D9CB14E004C8704 /* main.m */; };
 		8AD4B6D61D9CB14E004C8704 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD4B6CE1D9CB14E004C8704 /* ViewController.m */; };
+		8AD4B6DC1D9CB62C004C8704 /* BInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD4B6DB1D9CB62C004C8704 /* BInterface.m */; };
+		8AD4B6E01D9CB69A004C8704 /* BLoginInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD4B6DF1D9CB69A004C8704 /* BLoginInterface.m */; };
+		8AD4B6E31D9CB6AD004C8704 /* BOrderInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD4B6E21D9CB6AD004C8704 /* BOrderInterface.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		8AD4B6CC1D9CB14E004C8704 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8AD4B6CD1D9CB14E004C8704 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		8AD4B6CE1D9CB14E004C8704 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8AD4B6DA1D9CB62C004C8704 /* BInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BInterface.h; sourceTree = "<group>"; };
+		8AD4B6DB1D9CB62C004C8704 /* BInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BInterface.m; sourceTree = "<group>"; };
+		8AD4B6DE1D9CB69A004C8704 /* BLoginInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLoginInterface.h; sourceTree = "<group>"; };
+		8AD4B6DF1D9CB69A004C8704 /* BLoginInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLoginInterface.m; sourceTree = "<group>"; };
+		8AD4B6E11D9CB6AD004C8704 /* BOrderInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOrderInterface.h; sourceTree = "<group>"; };
+		8AD4B6E21D9CB6AD004C8704 /* BOrderInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOrderInterface.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +92,22 @@
 		8AD4B6CF1D9CB14E004C8704 /* Src */ = {
 			isa = PBXGroup;
 			children = (
+				8AD4B6DA1D9CB62C004C8704 /* BInterface.h */,
+				8AD4B6DB1D9CB62C004C8704 /* BInterface.m */,
+				8AD4B6DD1D9CB659004C8704 /* Interface */,
 			);
 			path = Src;
+			sourceTree = "<group>";
+		};
+		8AD4B6DD1D9CB659004C8704 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				8AD4B6DE1D9CB69A004C8704 /* BLoginInterface.h */,
+				8AD4B6DF1D9CB69A004C8704 /* BLoginInterface.m */,
+				8AD4B6E11D9CB6AD004C8704 /* BOrderInterface.h */,
+				8AD4B6E21D9CB6AD004C8704 /* BOrderInterface.m */,
+			);
+			path = Interface;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,7 +183,10 @@
 			files = (
 				8AD4B6D61D9CB14E004C8704 /* ViewController.m in Sources */,
 				8AD4B6D51D9CB14E004C8704 /* main.m in Sources */,
+				8AD4B6DC1D9CB62C004C8704 /* BInterface.m in Sources */,
+				8AD4B6E31D9CB6AD004C8704 /* BOrderInterface.m in Sources */,
 				8AD4B6D01D9CB14E004C8704 /* AppDelegate.m in Sources */,
+				8AD4B6E01D9CB69A004C8704 /* BLoginInterface.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
