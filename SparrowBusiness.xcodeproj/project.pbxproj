@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3604043E597875AB537A5B3D /* libPods-SparrowBusiness.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83E83FC23A8CB4E03249A37B /* libPods-SparrowBusiness.a */; };
 		8AD4B6D01D9CB14E004C8704 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD4B6C51D9CB14E004C8704 /* AppDelegate.m */; };
 		8AD4B6D11D9CB14E004C8704 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AD4B6C61D9CB14E004C8704 /* Assets.xcassets */; };
 		8AD4B6D21D9CB14E004C8704 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AD4B6C71D9CB14E004C8704 /* LaunchScreen.storyboard */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		83E83FC23A8CB4E03249A37B /* libPods-SparrowBusiness.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SparrowBusiness.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AD4B6A91D9CB066004C8704 /* SparrowBusiness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SparrowBusiness.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AD4B6C41D9CB14E004C8704 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8AD4B6C51D9CB14E004C8704 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -35,6 +37,8 @@
 		8AD4B6DF1D9CB69A004C8704 /* BLoginInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLoginInterface.m; sourceTree = "<group>"; };
 		8AD4B6E11D9CB6AD004C8704 /* BOrderInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOrderInterface.h; sourceTree = "<group>"; };
 		8AD4B6E21D9CB6AD004C8704 /* BOrderInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOrderInterface.m; sourceTree = "<group>"; };
+		A354C37C1D12ADC79AF2E3BB /* Pods-SparrowBusiness.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparrowBusiness.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SparrowBusiness/Pods-SparrowBusiness.debug.xcconfig"; sourceTree = "<group>"; };
+		A5F16D99C1424270A82F903B /* Pods-SparrowBusiness.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparrowBusiness.release.xcconfig"; path = "Pods/Target Support Files/Pods-SparrowBusiness/Pods-SparrowBusiness.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,17 +46,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3604043E597875AB537A5B3D /* libPods-SparrowBusiness.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		37D5DAFBCC735B7C8631722B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A354C37C1D12ADC79AF2E3BB /* Pods-SparrowBusiness.debug.xcconfig */,
+				A5F16D99C1424270A82F903B /* Pods-SparrowBusiness.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8AD4B6A01D9CB066004C8704 = {
 			isa = PBXGroup;
 			children = (
 				8AD4B6AB1D9CB066004C8704 /* SparrowBusiness */,
 				8AD4B6AA1D9CB066004C8704 /* Products */,
+				37D5DAFBCC735B7C8631722B /* Pods */,
+				9EFF5A7352A0D7058DF5AC3F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +126,14 @@
 			path = Interface;
 			sourceTree = "<group>";
 		};
+		9EFF5A7352A0D7058DF5AC3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83E83FC23A8CB4E03249A37B /* libPods-SparrowBusiness.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -117,9 +141,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8AD4B6C01D9CB066004C8704 /* Build configuration list for PBXNativeTarget "SparrowBusiness" */;
 			buildPhases = (
+				6E6BA6D4317BF5D7D69E3179 /* [CP] Check Pods Manifest.lock */,
 				8AD4B6A51D9CB066004C8704 /* Sources */,
 				8AD4B6A61D9CB066004C8704 /* Frameworks */,
 				8AD4B6A71D9CB066004C8704 /* Resources */,
+				139F21BA45AE7AD8937C340C /* [CP] Embed Pods Frameworks */,
+				A61A17509F5CA38204372AD7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -175,6 +202,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		139F21BA45AE7AD8937C340C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SparrowBusiness/Pods-SparrowBusiness-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E6BA6D4317BF5D7D69E3179 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A61A17509F5CA38204372AD7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SparrowBusiness/Pods-SparrowBusiness-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8AD4B6A51D9CB066004C8704 /* Sources */ = {
@@ -252,7 +327,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -294,7 +369,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -304,6 +379,7 @@
 		};
 		8AD4B6C11D9CB066004C8704 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A354C37C1D12ADC79AF2E3BB /* Pods-SparrowBusiness.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SparrowBusiness/Demo/Info.plist;
@@ -315,6 +391,7 @@
 		};
 		8AD4B6C21D9CB066004C8704 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5F16D99C1424270A82F903B /* Pods-SparrowBusiness.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SparrowBusiness/Demo/Info.plist;
