@@ -10,8 +10,9 @@
 
 @implementation BOrderInterface
 
-- (void)fetchOrderWithTime:(long long)timeStamp pageSize:(NSInteger)pageSize pageIndex:(NSInteger)pageIndex {
-    
+- (NSArray<MCommodity *> *)fetchOrderWithTime:(long long)timeStamp pageSize:(NSInteger)pageSize pageIndex:(NSInteger)pageIndex {
+ 
+    return nil;
 }
 
 @end

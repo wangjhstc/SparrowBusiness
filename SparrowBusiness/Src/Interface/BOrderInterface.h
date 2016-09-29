@@ -7,9 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+
+@class MCommodity;
+
 //订单接口
 @interface BOrderInterface : NSObject
 
-- (void)fetchOrderWithTime:(long long)timeStamp pageSize:(NSInteger)pageSize pageIndex:(NSInteger)pageIndex;
+- (NSArray<MCommodity *> *)fetchOrderWithTime:(long long)timeStamp pageSize:(NSInteger)pageSize pageIndex:(NSInteger)pageIndex;
 
 @end
