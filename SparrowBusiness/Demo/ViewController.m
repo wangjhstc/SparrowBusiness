@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "BInterface.h"
 
 @interface ViewController ()
 
@@ -16,13 +17,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
+    NSArray<MCommodity *> *commodiyArray = [[BInterface OrderInterface] fetchOrderWithTime:1798298922 pageSize:8 pageIndex:1];
+    
+    NSLog(@"%@",commodiyArray);
 }
 
 
