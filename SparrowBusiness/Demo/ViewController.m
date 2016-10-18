@@ -9,10 +9,6 @@
 #import "ViewController.h"
 #import "BInterface.h"
 
-@interface ViewController ()
-
-@end
-
 @implementation ViewController
 
 - (void)viewDidLoad {
@@ -23,5 +19,12 @@
     NSLog(@"%@",commodiyArray);
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+}
 
 @end

@@ -10,6 +10,9 @@
 //登录接口
 @interface BLoginInterface : NSObject
 
-- (void)loginWithSuccessBlock:(void(^)(id data))success failBlock:(void(^)(NSError *error))failBlock;
+- (void)loginWithUserName:(NSString *)username
+                 password:(NSString *)password
+             successBlock:(void(^)(id data))success
+                failBlock:(void(^)(NSError *error))failBlock;
 
 @end

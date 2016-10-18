@@ -13,7 +13,7 @@
 + (BLoginInterface *)LoginInterface {
     
     static BLoginInterface  *instance;
-    static dispatch_once_t onceToken;
+    static dispatch_once_t  onceToken;
     dispatch_once(&onceToken, ^{
         instance = [[BLoginInterface alloc] init];
     });
@@ -24,7 +24,7 @@
 + (BOrderInterface *)OrderInterface {
     
     static BOrderInterface  *instance;
-    static dispatch_once_t onceToken;
+    static dispatch_once_t  onceToken;
     dispatch_once(&onceToken, ^{
         instance = [[BOrderInterface alloc] init];
     });
