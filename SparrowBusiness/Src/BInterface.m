@@ -10,6 +10,10 @@
 
 @implementation BInterface
 
++ (void)InitialLoading {
+    
+}
+
 + (BLoginInterface *)LoginInterface {
     
     static BLoginInterface  *instance;

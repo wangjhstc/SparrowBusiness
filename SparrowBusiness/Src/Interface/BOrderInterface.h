@@ -15,4 +15,6 @@
 
 - (NSArray<MCommodity *> *)fetchOrderWithTime:(long long)timeStamp pageSize:(NSInteger)pageSize pageIndex:(NSInteger)pageIndex;
 
+- (NSArray<MCommodity *> *)loadAllCommodity;
+
 @end

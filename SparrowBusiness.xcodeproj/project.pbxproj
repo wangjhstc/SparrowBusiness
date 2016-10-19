@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3604043E597875AB537A5B3D /* libPods-SparrowBusiness.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83E83FC23A8CB4E03249A37B /* libPods-SparrowBusiness.a */; };
+		8A77E3F91DB73EDE00089E13 /* LoginModular.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A77E3F81DB73EDE00089E13 /* LoginModular.m */; };
 		8AD4B6D01D9CB14E004C8704 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD4B6C51D9CB14E004C8704 /* AppDelegate.m */; };
 		8AD4B6D11D9CB14E004C8704 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AD4B6C61D9CB14E004C8704 /* Assets.xcassets */; };
 		8AD4B6D21D9CB14E004C8704 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AD4B6C71D9CB14E004C8704 /* LaunchScreen.storyboard */; };
@@ -21,6 +22,8 @@
 
 /* Begin PBXFileReference section */
 		83E83FC23A8CB4E03249A37B /* libPods-SparrowBusiness.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SparrowBusiness.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A77E3F71DB73EDE00089E13 /* LoginModular.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginModular.h; sourceTree = "<group>"; };
+		8A77E3F81DB73EDE00089E13 /* LoginModular.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginModular.m; sourceTree = "<group>"; };
 		8AD4B6A91D9CB066004C8704 /* SparrowBusiness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SparrowBusiness.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AD4B6C41D9CB14E004C8704 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8AD4B6C51D9CB14E004C8704 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -60,6 +63,22 @@
 				A5F16D99C1424270A82F903B /* Pods-SparrowBusiness.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		8A77E3B91DB6016300089E13 /* Commodity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Commodity;
+			sourceTree = "<group>";
+		};
+		8A77E3BA1DB6016300089E13 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				8A77E3F71DB73EDE00089E13 /* LoginModular.h */,
+				8A77E3F81DB73EDE00089E13 /* LoginModular.m */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 		8AD4B6A01D9CB066004C8704 = {
@@ -111,6 +130,8 @@
 				8AD4B6DA1D9CB62C004C8704 /* BInterface.h */,
 				8AD4B6DB1D9CB62C004C8704 /* BInterface.m */,
 				8AD4B6DD1D9CB659004C8704 /* Interface */,
+				8A77E3B91DB6016300089E13 /* Commodity */,
+				8A77E3BA1DB6016300089E13 /* Login */,
 			);
 			path = Src;
 			sourceTree = "<group>";
@@ -262,6 +283,7 @@
 				8AD4B6E31D9CB6AD004C8704 /* BOrderInterface.m in Sources */,
 				8AD4B6D01D9CB14E004C8704 /* AppDelegate.m in Sources */,
 				8AD4B6E01D9CB69A004C8704 /* BLoginInterface.m in Sources */,
+				8A77E3F91DB73EDE00089E13 /* LoginModular.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,7 +332,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;

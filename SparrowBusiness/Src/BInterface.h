@@ -12,6 +12,9 @@
 
 @interface BInterface : NSObject
 
+//INFO:初始加载（包含初始数据加载）
++ (void)InitialLoading;
+
 //登录实例接口
 + (BLoginInterface *)LoginInterface;
 
