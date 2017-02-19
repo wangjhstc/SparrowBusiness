@@ -18,7 +18,6 @@
 		8AD4B6DC1D9CB62C004C8704 /* BInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD4B6DB1D9CB62C004C8704 /* BInterface.m */; };
 		8AD4B6E01D9CB69A004C8704 /* BLoginInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD4B6DF1D9CB69A004C8704 /* BLoginInterface.m */; };
 		8AD4B6E31D9CB6AD004C8704 /* BOrderInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD4B6E21D9CB6AD004C8704 /* BOrderInterface.m */; };
-		8AEFB5201E59D84000E624F8 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 8AEFB51F1E59D84000E624F8 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -294,7 +293,6 @@
 				8AD4B6E31D9CB6AD004C8704 /* BOrderInterface.m in Sources */,
 				8AD4B6D01D9CB14E004C8704 /* AppDelegate.m in Sources */,
 				8AD4B6E01D9CB69A004C8704 /* BLoginInterface.m in Sources */,
-				8AEFB5201E59D84000E624F8 /* README.md in Sources */,
 				8A77E3F91DB73EDE00089E13 /* LoginModular.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
