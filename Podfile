@@ -7,6 +7,8 @@ source 'https://github.com/wangjhstc/SparrowSpec.git'
 
 target "SparrowBusiness" do
 
-pod 'SparrowModel', '0.0.1'
+    pod 'SparrowModel', '0.0.1'
+    pod 'SparrowData', '0.0.1'
+    pod 'AFNetworking', '~> 3.0'
 
 end

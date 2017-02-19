@@ -18,6 +18,7 @@
 		8AD4B6DC1D9CB62C004C8704 /* BInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD4B6DB1D9CB62C004C8704 /* BInterface.m */; };
 		8AD4B6E01D9CB69A004C8704 /* BLoginInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD4B6DF1D9CB69A004C8704 /* BLoginInterface.m */; };
 		8AD4B6E31D9CB6AD004C8704 /* BOrderInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD4B6E21D9CB6AD004C8704 /* BOrderInterface.m */; };
+		8AEFB5201E59D84000E624F8 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 8AEFB51F1E59D84000E624F8 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		8AD4B6DF1D9CB69A004C8704 /* BLoginInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLoginInterface.m; sourceTree = "<group>"; };
 		8AD4B6E11D9CB6AD004C8704 /* BOrderInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOrderInterface.h; sourceTree = "<group>"; };
 		8AD4B6E21D9CB6AD004C8704 /* BOrderInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOrderInterface.m; sourceTree = "<group>"; };
+		8AEFB51F1E59D84000E624F8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A354C37C1D12ADC79AF2E3BB /* Pods-SparrowBusiness.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparrowBusiness.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SparrowBusiness/Pods-SparrowBusiness.debug.xcconfig"; sourceTree = "<group>"; };
 		A5F16D99C1424270A82F903B /* Pods-SparrowBusiness.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparrowBusiness.release.xcconfig"; path = "Pods/Target Support Files/Pods-SparrowBusiness/Pods-SparrowBusiness.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -129,6 +131,7 @@
 			children = (
 				8AD4B6DA1D9CB62C004C8704 /* BInterface.h */,
 				8AD4B6DB1D9CB62C004C8704 /* BInterface.m */,
+				8AEFB51E1E59D7F500E624F8 /* Document */,
 				8AD4B6DD1D9CB659004C8704 /* Interface */,
 				8A77E3B91DB6016300089E13 /* Commodity */,
 				8A77E3BA1DB6016300089E13 /* Login */,
@@ -145,6 +148,14 @@
 				8AD4B6E21D9CB6AD004C8704 /* BOrderInterface.m */,
 			);
 			path = Interface;
+			sourceTree = "<group>";
+		};
+		8AEFB51E1E59D7F500E624F8 /* Document */ = {
+			isa = PBXGroup;
+			children = (
+				8AEFB51F1E59D84000E624F8 /* README.md */,
+			);
+			path = Document;
 			sourceTree = "<group>";
 		};
 		9EFF5A7352A0D7058DF5AC3F /* Frameworks */ = {
@@ -283,6 +294,7 @@
 				8AD4B6E31D9CB6AD004C8704 /* BOrderInterface.m in Sources */,
 				8AD4B6D01D9CB14E004C8704 /* AppDelegate.m in Sources */,
 				8AD4B6E01D9CB69A004C8704 /* BLoginInterface.m in Sources */,
+				8AEFB5201E59D84000E624F8 /* README.md in Sources */,
 				8A77E3F91DB73EDE00089E13 /* LoginModular.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
